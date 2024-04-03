@@ -1,0 +1,36 @@
+.nav-heading {
+  display: flex;
+align-items: center;
+  width: 50%;
+ 
+}
+.nav-bar{
+  height: 60px;
+
+}
+.second-nav {
+  display: flex;
+  align-items: center;
+width: 50%;
+  justify-content: center;
+}
+.nav-heading h1 {
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-size: x-large;
+}
+.second-nav button {
+width: 100px;
+}
+
+/* media Queery */
+
+@media (max-width:767px) {
+  .nav-heading h1{
+    margin-left: 0px;
+    
+    }
+    .second-nav {
+      justify-content: flex-end;
+    }
+}
