@@ -4,6 +4,7 @@ import Card from "./assets/component/Card";
 import Navbar from "./assets/component/Navbar";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Showcase from "./assets/component/Showcase";
+import Testimonial from "./assets/component/Testimonial";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <Card />
     <Showcase/>
+    <Testimonial/>
     </>
   );
 }

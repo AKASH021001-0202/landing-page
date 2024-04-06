@@ -20,6 +20,7 @@ input:focus-visible {
 }
 form {
   display: flex;
+  padding: 25px;
 }
 
 .bg-image {
@@ -44,7 +45,7 @@ form {
   content: "";
   position: absolute;
   background-color: #1c375e;
-  height: 79.5%;
+  height: 87.4%;
   width: 100%;
   top: 57px;
   left: 0;
@@ -102,5 +103,22 @@ img{
 .showcase-content p {
   font-size: 1.25rem;
   font-weight: 300;
+
+}
+.card-padding{
+  padding: 100px;
+}
+.testimonial-padding{
+  padding: 50px;
+}
+.testimonial-content img{
+  width: 193px;
+  border-radius: 50%;
+
+}
+.testimonial-content P ,h5{
+text-align: center;
+display: flex;
+align-items: center;
 
 }

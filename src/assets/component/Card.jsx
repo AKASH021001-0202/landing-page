@@ -3,7 +3,7 @@ import React from "react";
 import { cardData } from "../../data.js";
 const Card = () => {
   return (
-    <div className="container">
+    <div className="container card-padding">
       <div className="row">
         {cardData.map((item, index) => (
           <div className="col-lg-4" key={index}>

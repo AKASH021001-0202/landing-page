@@ -34,4 +34,20 @@ const cardData = [
     imageUrl: "https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg" 
   },];
 
-  export { cardData, showcaseData }
+  const testimonialData = [{
+    imageUrl: "https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-1.jpg",
+    name: "Margaret E.",
+    description: "\"This is fantastic! Thanks so much guys!\"",
+  },
+  {
+    imageUrl: "https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-2.jpg",
+    name: "Fred S.",
+    description: "\"Bootstrap is amazing. I've been using it to create lots of super nice landing pages.\"",
+  },
+  {
+    imageUrl: "https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-3.jpg",
+    name: "Sarah W.",
+    description: "\"Thanks so much for making these free resources available to us!\"",
+  },
+  ];
+  export { cardData, showcaseData ,testimonialData}

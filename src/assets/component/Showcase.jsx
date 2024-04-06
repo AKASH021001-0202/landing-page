@@ -2,7 +2,7 @@ import React from 'react';
 import {showcaseData} from '../../data.js'
 const Showcase = () => {
   return (
-    <div className="container-fluid mt-5" >
+    <div className="container-fluid " >
         {showcaseData.map((showcase, index) => (
           <div className="row" key={index}>
             <div className={`col-lg-6 ${index % 2 === 0 ? 'order-2' : 'order-1'} p-0`}>
