@@ -1,9 +1,11 @@
+// import bgimg from '../assets/bg-masthead.jpg'
+
 function Banner() {
   return (
     <div className="banner-section">
     <div className=" container-fluid">
       <div className="row">
-        <div className="bg-image" style={{background:"url('https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg')"}} >
+        <div className="bg-image bg-img-1" >
           <div className="banner-content">
           <h1>Generate more leads with a professional landing page!</h1>
           <form>

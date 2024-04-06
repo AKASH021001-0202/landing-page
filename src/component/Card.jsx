@@ -1,6 +1,6 @@
 // card.jsx
 import React from "react";
-import { cardData } from "../../data.js";
+import { cardData } from "../data.js";
 const Card = () => {
   return (
     <div className="container card-padding">

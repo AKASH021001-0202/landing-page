@@ -1,11 +1,12 @@
 import "./App.css";
-import Banner from "./assets/component/Banner";
-import Card from "./assets/component/Card";
-import Navbar from "./assets/component/Navbar";
+import Banner from "./component/Banner";
+import Navbar from "./component/Navbar";
+import Card from "./component/Card";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import Showcase from "./assets/component/Showcase";
-import Testimonial from "./assets/component/Testimonial";
-
+import Showcase from "./component/Showcase";
+import Testimonial from "./component/Testimonial";
+import Contactusbanner from "./component/Contactusbanner";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
       <Navbar />
       <Banner />
       <Card />
-    <Showcase/>
-    <Testimonial/>
+      <Showcase />
+      <Testimonial />
+      <Contactusbanner />
+      <Footer/>
     </>
   );
 }

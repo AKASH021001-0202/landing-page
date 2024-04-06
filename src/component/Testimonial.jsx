@@ -1,10 +1,10 @@
 import React from "react";
-import {testimonialData} from '../../data.js'
+import {testimonialData} from "../data.js";
 
 const Testimonial = () => {
   return (
-    <div className="container testimonial-padding">
-        <h1 style={{textAlign:"center"}}>What people are saying...</h1>
+    <div className="container-fluid testimonial-padding">
+        <h1 style={{textAlign:"center", paddingBottom:"50px"}}>What people are saying...</h1>
       <div className="row" >
         {testimonialData.map((item, index) => (
           <div className="col-lg-4 testimonial-content" key={index}>

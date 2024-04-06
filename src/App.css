@@ -12,6 +12,11 @@
  margin-bottom: 0;
 }
 
+.bg-img-1 {
+  background: url("/src/assets/bg-masthead.jpg");
+  background-position: center center;
+  background-size: cover;
+}
 
 /* media Queery */
 
