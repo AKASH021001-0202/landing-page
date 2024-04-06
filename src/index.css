@@ -9,3 +9,11 @@ ul{
 li{
   margin-bottom:  0;
 }
+
+
+input[type="email"] {
+  padding: 13px 42px;
+  border: none;
+  box-sizing: content-box;
+  border-radius: 10px;
+}

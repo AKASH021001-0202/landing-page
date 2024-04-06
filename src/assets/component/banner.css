@@ -1,0 +1,36 @@
+
+.bg-image{
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    
+  }
+  .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  z-index: 999;
+    flex-direction: column;
+    margin: 150px 50px;
+    position: relative;
+  }
+  .banner-content h1 {
+width: 35%;
+color: #fff;
+text-align: center;
+
+
+  }
+  .bg-image::before{
+    content: "";
+    position: absolute;
+    background-color: #1c375e;
+    height:80%;
+    width: 100%;
+    top: 10;
+    left: 0;
+    opacity: 0.5;
+}
+
+.banner-button{
+    padding: 13px 20px;
+}

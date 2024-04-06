@@ -1,36 +1,16 @@
-.nav-heading {
-  display: flex;
-align-items: center;
-  width: 50%;
- 
-}
-.nav-bar{
-  height: 60px;
-
-}
-.second-nav {
+.nav-bar1{
   display: flex;
   align-items: center;
-width: 50%;
-  justify-content: center;
+  justify-content: space-between;
+  height: 56px;
 }
-.nav-heading h1 {
-  margin-left: 50px;
+
+.nav-bar1 h1 {
+
   text-transform: uppercase;
-  font-size: x-large;
+ font-size: 22px;
+ margin-bottom: 0;
 }
-.second-nav button {
-width: 100px;
-}
+
 
 /* media Queery */
-
-@media (max-width:767px) {
-  .nav-heading h1{
-    margin-left: 0px;
-    
-    }
-    .second-nav {
-      justify-content: flex-end;
-    }
-}
