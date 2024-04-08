@@ -196,5 +196,12 @@ height: 100%;
   padding: 20px 0 0 0;
   flex-direction: column;
 }
+form {
+  display: flex;
+  padding: 0px;
+}
+input[type="email"] {
+  width: 71%;
+}
   
 }
